@@ -1,0 +1,170 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css?_v=20240304220552">
+    <link rel="stylesheet" href="css/style.min.css?_v=20240304220552">
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js?_v=20240304220552"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js?_v=20240304220552"></script>
+    <script defer src="js/app.min.js?_v=20240304220552"></script>
+    <title>Главная</title>
+</head>
+
+    <body>
+        <div class="wrapper">
+            <main class="content">
+                <section class="intro">
+                    <picture><source srcset="img/intro/bg.webp" type="image/webp"><img src="img/intro/bg.png" alt="intro-bg" class="intro__bg"></picture>
+                    <picture><source srcset="img/intro/girl.webp" type="image/webp"><img src="img/intro/girl.png" alt="intro-girl" class="intro__girl"></picture>
+                    <picture><source srcset="img/intro/left-flower.webp" type="image/webp"><img src="img/intro/left-flower.png" alt="left-flower" class="intro__left-flower"></picture>
+                    <picture><source srcset="img/intro/right-flower.webp" type="image/webp"><img src="img/intro/right-flower.png" alt="right-flower" class="intro__right-flower"></picture>
+                    <div class="container">
+                        <div class="intro__row">
+                            <header class="intro__header">
+                                <img src="img/svgicons/logo.svg" alt="Perfect-world logo" class="intro__logo">
+                                <a href="#" class="btn btn-one">
+                                    <img src="img/svgicons/left-arrow.svg" alt="left-arrow" class="btn-one__left-arrow">
+                                    <img src="img/svgicons/right-arrow.svg" alt="right-arrow" class="btn-one__right-arrow">
+                                    <img src="img/svgicons/btn-bg-one.svg" alt="btn-bg" class="btn-one__bg">
+                                    <p>Начать игру</p>
+                                </a>
+                            </header>
+                            <footer class="intro__footer">
+                                <ul class="list">
+                                    <li>
+                                        <a href="#">Личный кабинет</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Форум</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Новости</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Контакты</a>
+                                    </li>
+                                </ul>
+                                <a href="#" class="btn btn-two">
+                                    <img src="img/svgicons/btn-bg-two.svg" alt="btn-bg" class="btn-two__bg">
+                                    <p>Регистрация</p>
+                                </a>
+                            </footer>
+                        </div>
+                    </div>
+                </section>
+                <section class="info">
+                    <picture><source srcset="img/footer/bg.webp" type="image/webp"><img src="img/footer/bg.png" alt="info-bg" class="info__bg"></picture>
+                    <div class="container">
+                        <header class="info__header">
+                            <article class="info__item medium header-two">
+                                <picture><source srcset="img/footer/block-bg-one.webp" type="image/webp"><img src="img/footer/block-bg-one.png" alt="block-bg" class="info__item__bg"></picture>
+                                <div class="info__info">
+                                    <h2 class="title text-gradient">
+                                        PVP сервер Evolve
+                                    </h2>
+                                    <main class="info__stats">
+                                        <div class="info__stat">
+                                            <p>Версия игры</p>
+                                            <p>1.5.5+</p>
+                                        </div>
+                                        <div class="info__stat">
+                                            <p>Версия клиента</p>
+                                            <p>1.6.2</p>
+                                        </div>
+                                        <div class="info__stat">
+                                            <p>Количество рас</p>
+                                            <p>5</p>
+                                        </div>
+                                        <div class="info__stat">
+                                            <p>Количество классов</p>
+                                            <p>10</p>
+                                        </div>
+                                        <div class="info__stat">
+                                            <p>Максимальный уровень</p>
+                                            <p>165</p>
+                                        </div>
+                                        <div class="info__stat">
+                                            <p>Оружие</p>
+                                            <p>ЦГД</p>
+                                        </div>
+                                    </main>
+                                    <a href="#" class="btn btn-two">
+                                        <img src="img/svgicons/btn-bg-two.svg" alt="btn-bg" class="btn-two__bg">
+                                        <p>Подробнее</p>
+                                    </a>
+                                </div>
+                            </article>
+                            <article class="info__item big header-one">
+                                <picture><source srcset="img/footer/block-bg-two.webp" type="image/webp"><img src="img/footer/block-bg-two.png" alt="block-bg" class="info__item__bg"></picture>
+                                <div class="info__info">
+                                    <h2 class="title text-gradient">
+                                        здесь начинаются 
+                                        твои приключения
+                                    </h2>
+                                    <h3>Максимальное снаряжение</h3>
+                                    <p class="text-gradient">Снаряжение Стеллы</p>
+                                    <h3>Финальные камни</h3>
+                                    <p class="text-gradient">+35 выносливости, 200 маг/физ атаки</p>
+                                    <h3>Гравировка</h3>
+                                    <p class="text-gradient">
+                                        бижи 3 уфу/уму, шлем и накидка 200 маг/физ атаки, ;
+                                        <br>
+                                        кольца Крит, ловкость, интеллект, телосложение, сила
+                                    </p>
+                                    <div class="socials">
+                                        <a href="#" class="vk">
+                                            <img src="img/svgicons/vk.svg" alt="vk">
+                                        </a>
+                                        <a href="#" class="tg">
+                                            <img src="img/svgicons/tg.svg" alt="tg">
+                                        </a>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="info__item header-one">
+                                <picture><source srcset="img/footer/block-bg-three.webp" type="image/webp"><img src="img/footer/block-bg-three.png" alt="block-bg" class="info__item__bg"></picture>
+                                <div class="info__info">
+                                    <h3>Рейты сервера</h3>
+                                    <p class="text-gradient text-big">x999999</p>
+                                </div>
+                            </article>
+                        </header>
+                        <footer class="info__footer">
+                            <picture><source srcset="img/footer/girl.webp" type="image/webp"><img src="img/footer/girl.png" alt="footer-girl" class="info__img"></picture>
+                            <div class="info__text">
+                                <ul class="list">
+                                    <li>
+                                        <a href="#">Личный кабинет</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Форум</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Новости</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Контакты</a>
+                                    </li>
+                                </ul>
+                                <div class="info__copy">
+                                    <p>
+                                        Данный сервер является тестовым вариантом игры 
+                                        и предназначен только для ознакомления. Все права принадлежат их правообладателям
+                                        <br>
+                                        <br>
+                                        Copyright © 2024 Evolve
+                                    </p>
+                                    <img src="img/svgicons/logo.svg" alt="logo">
+                                </div>
+                            </div>
+                        </footer>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </body>
+</html>
