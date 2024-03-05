@@ -592,22 +592,25 @@ body {
   .info {
     position: relative;
   }
-  .info::before {
-    content: "";
-    position: absolute;
-    z-index: 3;
-    width: 100%;
-    height: 60%;
-    left: 0px;
-    bottom: 0px;
-    background: linear-gradient(0deg, #1b3340 -54.88%, rgba(12, 49, 151, 0) 100%);
-  }
   .info__header {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
   }
   .info__item.medium, .info__item.big {
     grid-row: span 1;
+  }
+  .info__footer {
+    position: relative;
+  }
+  .info__footer::before {
+    content: "";
+    position: absolute;
+    z-index: 3;
+    width: calc(100% + 120px);
+    height: 100%;
+    left: -60px;
+    bottom: 0px;
+    background: linear-gradient(0deg, #1b3340 -54.88%, rgba(12, 49, 151, 0) 100%);
   }
   .info__text {
     flex: 1 1 auto;
