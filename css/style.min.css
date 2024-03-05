@@ -650,3 +650,25 @@ body {
     top: 25px;
   }
 }
+@media only screen and (max-width: 450px) {
+  .intro__header {
+    padding-bottom: 40px;
+  }
+  .btn-one {
+    width: 100%;
+  }
+  .btn-one p {
+    font-size: 24px;
+  }
+  .info__item {
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    left: -30px;
+  }
+  .info__item__bg, .info__item::after {
+    width: calc(100% - 40px);
+    left: 20px;
+    top: 25px;
+  }
+}
